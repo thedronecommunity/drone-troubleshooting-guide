@@ -13,7 +13,7 @@
 - `RXLOSS` appears as arming prevention flag in CLI `status` command
 
 ### Common Causes
-- **TX and RX wires are swapped** (most common!) — remember: RX pad on receiver connects to TX pad on FC
+- **TX and RX wires are swapped** (most common!) - remember: RX pad on receiver connects to TX pad on FC
 - Wrong UART selected in Betaflight Ports tab
 - Serial RX not enabled on the correct UART
 - Wrong receiver protocol selected (should be CRSF for ELRS)
@@ -23,7 +23,7 @@
 
 ### Step-by-Step Solution
 
-1. **Verify your wiring — this is the #1 cause:**
+1. **Verify your wiring. This is the most common cause:**
    ```
    ELRS RX pad → FC TX pad (they cross over!)
    ELRS TX pad → FC RX pad
@@ -45,7 +45,7 @@
 
 5. **Power cycle the entire system** (FC + receiver with battery)
 
-6. **Check Receiver tab** — bars should now respond to stick movement
+6. **Check Receiver tab** - bars should now respond to stick movement
 
 ### Commands/Settings
 
@@ -132,10 +132,10 @@ serialpassthrough [UART#] 420000
 ```
 
 ### 💡 Pro Tip
-Use a unique binding phrase (your pilot name works great) and flash it to ALL your ELRS gear. You'll never deal with manual binding again — everything just works when powered on.
+Use a unique binding phrase, such as your pilot name, and flash it to all of your ELRS gear. Binding will then happen automatically when devices power up and you will not need manual binding.
 
 ### ⚠️ Warning
-ELRS 3.x will NOT bind with ELRS 2.x — they're incompatible. If you update your TX to 3.x, you MUST update all your receivers too.
+ELRS 3.x will not bind with ELRS 2.x. If you update your transmitter module to 3.x, you must update all of your receivers too.
 
 ---
 
@@ -230,8 +230,8 @@ Getting channel mapping wrong causes crashes! Always verify on the bench that ea
 ### Step-by-Step Solution
 
 1. **Check receiver antenna connection:**
-   - uFL connectors MUST click firmly
-   - Tiny connectors — use fingernail to press down
+   - uFL connectors must click firmly into place
+   - These are small connectors, so use a fingernail or a plastic tool to press them down
    - If loose, signal is severely degraded
 
 2. **Antenna placement matters:**
@@ -287,7 +287,7 @@ A loose uFL connector can still show "connected" but with severely reduced range
 - Channel bars in Betaflight are flatlined at 1500
 
 ### Common Causes
-- **F4 processors lack hardware UART inverter** — SBUS signal is inverted and needs external inversion
+- **F4 processors lack hardware UART inverter** - the SBUS signal is inverted and needs external inversion
 - Connected to non-inverted UART pad instead of SBUS pad
 - Wrong UART selected for Serial RX
 - `serialrx_inverted` setting wrong for your specific FC
@@ -340,7 +340,7 @@ save
 ```
 
 ### 💡 Pro Tip
-Modern ELRS and Crossfire receivers use CRSF protocol which is NOT inverted — they work on any UART without special pads. If SBUS is giving you trouble, consider upgrading to ELRS!
+Modern ELRS and Crossfire receivers use the CRSF protocol, which is not inverted, so they work on any UART without special pads. If SBUS keeps causing trouble, upgrading to ELRS or CRSF usually simplifies the setup.
 
 ### ⚠️ Warning
 Don't keep trying random `serialrx_inverted` settings hoping something works. Either your FC has hardware inversion on a specific pad (use that pad), or it doesn't (you need external inverter or different receiver).

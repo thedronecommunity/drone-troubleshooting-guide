@@ -14,7 +14,7 @@
 - Works on one computer but not another
 
 ### Common Causes
-- **Using a charge-only USB cable** (no data wires) — most common!
+- **Using a charge-only USB cable** (no data wires) - this is the most common cause
 - Missing or wrong USB drivers (Windows)
 - Damaged USB port on FC
 - FC stuck in DFU mode
@@ -31,7 +31,7 @@
 2. **Install proper drivers (Windows):**
    - Download ImpulseRC Driver Fixer
    - Run as Administrator
-   - Click "Install" — fixes most driver issues
+   - Click "Install" to fix most driver issues
    - Replug FC after installation
 
 3. **Check Device Manager:**
@@ -75,10 +75,10 @@
 ```
 
 ### 💡 Pro Tip
-Keep one USB cable that you KNOW is a data cable — mark it with tape or a label. Charge-only cables are the #1 cause of "FC not detected" and waste hours of troubleshooting.
+Keep one USB cable that you know is a data capable cable and mark it with tape or a label. Charge only cables are the number one cause of "FC not detected" problems and often waste a lot of time.
 
 ### ⚠️ Warning
-Don't randomly install drivers! Use ImpulseRC Driver Fixer first — it handles STM32 VCP drivers properly. Installing wrong drivers (like Guillemot from old joysticks) can block the FC.
+Avoid installing random drivers. Use ImpulseRC Driver Fixer first because it handles STM32 VCP drivers correctly. Installing the wrong driver, such as old joystick or modem drivers, can prevent the FC from appearing as a serial device.
 
 ---
 

@@ -20,10 +20,10 @@ First off, thank you for considering contributing! 🎉 This guide is built by t
 
 This project follows a simple code of conduct:
 
-- **Be respectful** — We're all here to help each other
-- **Be constructive** — Critique ideas, not people
-- **Be patient** — Not everyone has the same experience level
-- **Be inclusive** — Welcome newcomers to the hobby
+- **Be respectful** - everyone is here to help each other
+- **Be constructive** - critique ideas, not people
+- **Be patient** - not everyone has the same experience level
+- **Be inclusive** - welcome newcomers to the hobby
 
 ---
 
@@ -142,10 +142,10 @@ Step-by-step fix
 
 ### Writing Style
 
-1. **Be direct** — Get to the solution quickly
-2. **Be specific** — Include exact values, not "change the setting"
-3. **Be practical** — Focus on what works, not theory
-4. **Be friendly** — Write like you're helping a friend
+1. **Be direct** - get to the solution quickly
+2. **Be specific** - include exact values, not just "change the setting"
+3. **Be practical** - focus on what works in real builds
+4. **Be friendly** - write like you are helping a friend
 
 ### Formatting
 
@@ -224,10 +224,10 @@ save
 
 ### Branch Naming
 
-- `fix/` — Fixing errors: `fix/gps-baud-rate`
-- `add/` — New content: `add/spektrum-binding`
-- `improve/` — Enhancements: `improve/blheli-section`
-- `docs/` — Documentation: `docs/readme-update`
+- `fix/` - Fixing errors: `fix/gps-baud-rate`
+- `add/` - New content: `add/spektrum-binding`
+- `improve/` - Enhancements: `improve/blheli-section`
+- `docs/` - Documentation: `docs/readme-update`
 
 ### Commit Messages
 

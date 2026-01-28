@@ -5,7 +5,7 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
 
 > **50 Most Common Problems & Solutions for DIY Drone Builders**  
-> From receiver binding to PID tuning — everything you need to get your drone in the air.
+> From receiver binding to PID tuning - everything you need to get your drone in the air.
 
 ---
 
@@ -14,12 +14,12 @@
 This comprehensive troubleshooting guide was created for **The Drone Community** workshops to help beginners and intermediate builders solve the most frustrating problems they encounter during drone builds.
 
 Each problem includes:
-- ✅ **Symptoms** — What you'll actually see/experience
-- 🔍 **Common Causes** — Why it's happening
-- 🛠️ **Step-by-Step Solution** — Exactly how to fix it
-- 💻 **Commands/Settings** — Copy-paste ready CLI commands
-- 💡 **Pro Tips** — Hard-won wisdom from experienced builders
-- ⚠️ **Warnings** — Things that can damage your equipment
+- ✅ **Symptoms** - What you'll actually see or experience
+- 🔍 **Common Causes** - Why it is happening
+- 🛠️ **Step-by-Step Solution** - Exactly how to fix it
+- 💻 **Commands/Settings** - Copy paste ready CLI commands
+- 💡 **Pro Tips** - Notes collected from real builds
+- ⚠️ **Warnings** - Things that can damage your equipment
 
 ---
 
@@ -207,17 +207,17 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
 ## 📚 Additional Resources
 
-- [Oscar Liang's FPV Blog](https://oscarliang.com/) — Detailed FPV tutorials
-- [ArduPilot Documentation](https://ardupilot.org/copter/) — Official ArduPilot docs
-- [Betaflight Wiki](https://betaflight.com/docs/wiki) — Betaflight reference
-- [ExpressLRS Docs](https://www.expresslrs.org/) — ELRS setup guides
-- [Joshua Bardwell YouTube](https://www.youtube.com/@JoshuaBardwell) — Video troubleshooting
+- [Oscar Liang's FPV Blog](https://oscarliang.com/) - Detailed FPV tutorials
+- [ArduPilot Documentation](https://ardupilot.org/copter/) - Official ArduPilot docs
+- [Betaflight Wiki](https://betaflight.com/docs/wiki) - Betaflight reference
+- [ExpressLRS Docs](https://www.expresslrs.org/) - ELRS setup guides
+- [Joshua Bardwell YouTube](https://www.youtube.com/@JoshuaBardwell) - Video troubleshooting
 
 ---
 
 ## 📝 License
 
-This project is licensed under the MIT License — see [LICENSE](LICENSE) for details.
+This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
 
 ---
 
@@ -235,6 +235,4 @@ Special thanks to:
 <p align="center">
   <strong>Happy Building! 🛠️🚁</strong><br>
   <em>If this helped you, consider starring ⭐ the repo!</em>
-</p># drone-troubleshooting-guide
-# drone-troubleshooting-guide
-# drone-troubleshooting-guide
+</p>
