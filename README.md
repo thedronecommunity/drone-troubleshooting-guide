@@ -11,7 +11,7 @@
 
 ## 📖 About This Guide
 
-This comprehensive troubleshooting guide was created for **The Drone Community** workshops to help beginners and intermediate builders solve the most frustrating problems they encounter during drone builds.
+This comprehensive troubleshooting guide was created for **The Drone Community** members to help beginners and intermediate builders solve the most frustrating problems they encounter during drone builds.
 
 Each problem includes:
 - ✅ **Symptoms** - What you'll actually see or experience
@@ -158,10 +158,6 @@ git clone https://github.com/your-org/drone-troubleshooting-guide.git
 # Search for keywords
 grep -ri "motor spin" guides/
 ```
-
-### At Workshops
-Print or display specific guides relevant to the session. Each markdown file is designed to be readable on its own.
-
 ---
 
 ## 🛠️ Covered Hardware & Software
@@ -223,7 +219,7 @@ This project is licensed under the MIT License. See [LICENSE](LICENSE) for detai
 
 ## 🙏 Acknowledgments
 
-Created for **[The Drone Community](https://github.com/thedronecommunity)** workshops in Pune, Bangalore, and across India.
+Created for **[The Drone Community](https://github.com/thedronecommunity)** members in Pune, Bangalore, and across India.
 
 Special thanks to:
 - The ArduPilot and Betaflight communities
