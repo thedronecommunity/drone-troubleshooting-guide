@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 500">
+  <defs>
+    <marker id="arrowhead3" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#333"/>
+    </marker>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="850" height="500" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="425" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#1a5276">Raspberry Pi to Flight Controller (MAVLink)</text>
+  <text x="425" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#666">TELEM2 / UART Connection for Companion Computer</text>
+  
+  <!-- Raspberry Pi Box -->
+  <rect x="50" y="100" width="300" height="300" rx="10" fill="#27ae60" stroke="#1e8449" stroke-width="2"/>
+  <text x="200" y="130" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">Raspberry Pi 4</text>
+  
+  <!-- GPIO Header representation -->
+  <rect x="250" y="160" width="80" height="200" rx="5" fill="#1e8449"/>
+  <text x="290" y="180" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">GPIO Header</text>
+  
+  <!-- Pi Pins -->
+  <rect x="265" y="200" width="50" height="22" rx="3" fill="#f1c40f"/>
+  <text x="290" y="215" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#333">Pin 8 TX</text>
+  
+  <rect x="265" y="230" width="50" height="22" rx="3" fill="#e67e22"/>
+  <text x="290" y="245" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">Pin 10 RX</text>
+  
+  <rect x="265" y="270" width="50" height="22" rx="3" fill="#2c3e50"/>
+  <text x="290" y="285" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">Pin 6 GND</text>
+  
+  <!-- Pi info -->
+  <text x="150" y="180" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#d5f5e3">GPIO14 = TX</text>
+  <text x="150" y="195" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#d5f5e3">GPIO15 = RX</text>
+  <text x="150" y="220" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#a3e4d7">/dev/ttyAMA0</text>
+  <text x="150" y="235" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#a3e4d7">or /dev/serial0</text>
+  
+  <!-- Warning about Pi voltage -->
+  <rect x="70" y="310" width="160" height="70" rx="5" fill="#fdebd0" stroke="#e67e22"/>
+  <text x="150" y="330" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#d35400">⚠️ Pi is 3.3V!</text>
+  <text x="150" y="347" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#333">Most FCs are 5V tolerant</text>
+  <text x="150" y="362" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#333">on RX pin. Verify your FC</text>
+  <text x="150" y="377" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#333">before connecting!</text>
+  
+  <!-- Flight Controller Box -->
+  <rect x="500" y="100" width="300" height="300" rx="10" fill="#3498db" stroke="#2874a6" stroke-width="2"/>
+  <text x="650" y="130" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">Flight Controller</text>
+  <text x="650" y="148" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#d6eaf8">(Pixhawk / ArduPilot)</text>
+  
+  <!-- TELEM2 Port -->
+  <rect x="520" y="170" width="120" height="180" rx="5" fill="#2874a6"/>
+  <text x="580" y="195" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">TELEM2</text>
+  
+  <!-- FC Pins -->
+  <rect x="535" y="215" width="50" height="22" rx="3" fill="#1a5276"/>
+  <text x="560" y="230" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">TX</text>
+  
+  <rect x="535" y="245" width="50" height="22" rx="3" fill="#1a5276"/>
+  <text x="560" y="260" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">RX</text>
+  
+  <rect x="535" y="275" width="50" height="22" rx="3" fill="#1a5276"/>
+  <text x="560" y="290" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">GND</text>
+  
+  <rect x="535" y="305" width="50" height="22" rx="3" fill="#c0392b"/>
+  <text x="560" y="320" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">5V</text>
+  
+  <!-- FC Config info -->
+  <rect x="660" y="200" width="120" height="110" rx="5" fill="white" stroke="#bdc3c7"/>
+  <text x="720" y="220" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#333">ArduPilot Config</text>
+  <text x="720" y="240" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#333">SERIAL2_PROTOCOL=2</text>
+  <text x="720" y="255" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#333">SERIAL2_BAUD=921</text>
+  <text x="720" y="275" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#666">(921600 baud)</text>
+  <text x="720" y="295" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#666">MAVLink 2</text>
+  
+  <!-- Wires -->
+  <!-- Pi TX to FC RX (Yellow) - CROSSOVER -->
+  <path d="M 315 211 Q 400 211 400 180 Q 400 150 450 180 L 535 256" stroke="#f1c40f" stroke-width="4" fill="none" marker-end="url(#arrowhead3)"/>
+  
+  <!-- Pi RX to FC TX (Orange) - CROSSOVER -->
+  <path d="M 315 241 Q 420 241 420 200 Q 420 160 470 190 L 535 226" stroke="#e67e22" stroke-width="4" fill="none" marker-end="url(#arrowhead3)"/>
+  
+  <!-- GND to GND (Black) -->
+  <line x1="315" y1="281" x2="535" y2="286" stroke="#2c3e50" stroke-width="4" marker-end="url(#arrowhead3)"/>
+  
+  <!-- Wire Labels -->
+  <rect x="370" y="130" width="110" height="55" rx="5" fill="white" stroke="#bdc3c7"/>
+  <text x="425" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#333">CROSSOVER!</text>
+  <line x1="385" y1="162" x2="405" y2="162" stroke="#f1c40f" stroke-width="3"/>
+  <text x="430" y="166" font-family="Arial, sans-serif" font-size="9" fill="#333">Pi TX→FC RX</text>
+  <line x1="385" y1="177" x2="405" y2="177" stroke="#e67e22" stroke-width="3"/>
+  <text x="430" y="181" font-family="Arial, sans-serif" font-size="9" fill="#333">Pi RX→FC TX</text>
+  
+  <!-- Do NOT connect 5V note -->
+  <rect x="380" y="320" width="140" height="40" rx="5" fill="#fadbd8" stroke="#e74c3c"/>
+  <text x="450" y="338" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#c0392b">❌ Do NOT connect</text>
+  <text x="450" y="353" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#c0392b">FC 5V to Pi!</text>
+  
+  <!-- Red X on 5V -->
+  <line x1="530" y1="310" x2="510" y2="330" stroke="#e74c3c" stroke-width="3"/>
+  <line x1="510" y1="310" x2="530" y2="330" stroke="#e74c3c" stroke-width="3"/>
+  
+  <!-- Bottom setup instructions -->
+  <rect x="50" y="420" width="750" height="70" rx="5" fill="#d5f5e3" stroke="#27ae60"/>
+  <text x="425" y="442" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#1e8449">Raspberry Pi Setup Commands</text>
+  <text x="425" y="462" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-family="monospace" fill="#333">sudo raspi-config → Interface Options → Serial Port → No (login shell) / Yes (hardware)</text>
+  <text x="425" y="480" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-family="monospace" fill="#333">echo "dtoverlay=disable-bt" | sudo tee -a /boot/config.txt &amp;&amp; sudo reboot</text>
+</svg>
